@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e0e0e0;
+}
+
+body {
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  padding-bottom: 10000px;
+  }
+        
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  }
+
+#home {
+  width: 50%;
+  display: block;
+  position: absolute;
+  margin: 15% auto;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+#home h3 {
+  color: ##f6f5f7
+}
+
+#home a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  border: none;
+  background-color: #5e2cd3;
+  border-radius: 32px;
+}
+
